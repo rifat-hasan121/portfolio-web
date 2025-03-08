@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/91ea9f2f2e.js" crossorigin="anonymous"></script>
+    <!-- style -->
+    <style>
+      /* font style  */
+      .title-font {
+        font-family: "Montserrat", sans-serif;
+      }
+      .body.font {
+        font-family: "Poppins", sans-serif;
+      }
+      /* color */
+      .bg-color {
+        background-color: #212428;
+      }
+      .color-primary {
+        color: #ff014f;
+      }
+      .nav-color {
+        color: #c4cfde;
+      }
+    </style>
+  </head>
+  <body class="w-11/12 mx-auto">
+    <header>
+      <!-- navbar section -->
+      <div>
+        <div class="navbar bg-base-100 shadow-sm justify-between">
+          <div class="flex items-center">
+            <div>
+              <img
+                class="w-10 h-10 rounded-full border-2 border-slate-500 cursor-pointer"
+                src="./images/rifat.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <p class="text-2xl font-bold text-slate-300 ml-2 cursor-pointer">
+                Ri<span class="color-primary">F</span>at
+              </p>
+            </div>
+          </div>
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6 color-primary cursor-pointer block md:hidden"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </div>
+          <div class="hidden md:block">
+            <ul class="transition-all duration-2s">
+              <li class="float-left ml-4 p-2 nav-color active:nav-color">
+                <a href="#">Home</a>
+              </li>
+              <li
+                class="float-left ml-4 p-2 nav-color opacity-50 hover:opacity-100 tran"
+              >
+                <a href="#">Features</a>
+              </li>
+              <li
+                class="float-left ml-4 p-2 nav-color opacity-50 hover:opacity-100 tran"
+              >
+                <a href="#">Portfolio</a>
+              </li>
+              <li
+                class="float-left ml-4 p-2 nav-color opacity-50 hover:opacity-100 tran"
+              >
+                <a href="#">Resume</a>
+              </li>
+              <li
+                class="float-left ml-4 p-2 nav-color opacity-50 hover:opacity-100 tran"
+              >
+                <a href="#">Clients</a>
+              </li>
+              <li
+                class="float-left ml-4 p-2 nav-color opacity-50 hover:opacity-100 tran"
+              >
+                <a href="#">Pricing</a>
+              </li>
+              <li
+                class="float-left ml-4 p-2 nav-color opacity-50 hover:opacity-100 tran"
+              >
+                <a href="#">blog</a>
+              </li>
+              <li
+                class="float-left ml-4 p-2 nav-color opacity-50 hover:opacity-100 tran"
+              >
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- hero section -->
+      <div>
+        <div class="mt-6">
+          <!-- banner -->
+          <img
+            class="w-4/5 mx-auto rounded-lg outline-8 outline-[#333333]"
+            src="./images/rifat.jpg"
+            alt=""
+          />
+        </div>
+        <!-- banner text section -->
+        <div>
+          <p class="text-sm title-font uppercase mt-8 nav-color font-medium">
+            Welcome to my world
+          </p>
+          <h3 class="text-3xl font-semibold mt-4 title-font">
+            Hi, I’m <span class="color-primary">Rifat Hasan <br></span> <span class="text-xl font-semibold">Social Politician.</span>
+          </h3>
+          <p class="text-sm nav-color mt-4 opacity-70">I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.</p>
+        </div>
+        <!-- contact section -->
+         <div class="">
+          <h5 class="text-sm nav-color font-semibold mt-8 uppercase opacity-70">find with me</h5>
+          <div class="mt-6 mb-6 flex gap-4">
+            <div class=""><i class="fa-brands fa-facebook-f color-primary p-3 bg-[#2c2c2c] rounded-md shadow-lg hover:-translate-y-2 transition-all duration-150 cursor-pointer"></i></div>
+            <div class="fa-brands fa-instagram color-primary p-3 bg-[#2c2c2c] rounded-md shadow-lg hover:-translate-y-2 transition-all duration-150 cursor-pointer"></i></div>
+            <div class=""><i class="fa-brands fa-linkedin-in color-primary p-3 bg-[#2c2c2c] rounded-md shadow-xl hover:-translate-y-2 transition-all duration-150 cursor-pointer"></i></div>
+          </div>
+         </div>
+         <div>
+          <h5 class="text-sm nav-color font-semibold mt-8 uppercase opacity-70">best skill on</h5>
+          <div class="mt-6 mb-6 flex gap-4">
+           
+            <div class="color-primary p-3 bg-[#2c2c2c] rounded-md shadow-xl hover:-translate-y-2 transition-all duration-150 cursor-pointer"> <img class="w-4 h-4" src="./images/icons-01.png" alt=""> </div>
+           
+            <div class="color-primary p-3 bg-[#2c2c2c] rounded-md shadow-xl hover:-translate-y-2 transition-all duration-150 cursor-pointer"> <img class="w-4 h-4" src="./images/icons-02.png" alt=""> </div>
+           
+            <div class="color-primary p-3 bg-[#2c2c2c] rounded-md shadow-xl hover:-translate-y-2 transition-all duration-150 cursor-pointer"> <img class="w-4 h-4" src="./images/icons-03.png" alt=""> </div>
+          </div>
+         </div>
+      </div>
+    </header>
+  </body>
+</html>

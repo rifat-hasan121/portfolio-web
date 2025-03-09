@@ -40,21 +40,21 @@
       }
     </style>
   </head>
-  <body class="w-11/12 mx-auto">
-    <header>
+  <body class="">
+    <header class="">
       <!-- navbar section -->
-      <div>
+      <div class="ml-2 mr-2 sticky top-0 ">
         <div class="navbar bg-base-100 shadow-sm justify-between">
           <div class="flex items-center">
             <div>
               <img
-                class="w-10 h-10 rounded-full border-2 border-slate-500 cursor-pointer"
+                class="w-10 h-10 rounded-full border-2 outline-3 outline-red-500 cursor-pointer"
                 src="./images/rifat.png"
                 alt=""
               />
             </div>
             <div>
-              <p class="text-2xl font-bold text-slate-300 ml-2 cursor-pointer">
+              <p class="text-2xl font-bold text-slate-300 ml-2 cursor-pointer md:text-3xl md:font-extrabold scale-105 hover:scale-110">
                 Ri<span class="color-primary">F</span>at
               </p>
             </div>
@@ -119,47 +119,55 @@
           </div>
         </div>
       </div>
+      
+    </header>
+    <main>
       <!-- hero section -->
-      <div>
+       <!-- hero section -->
+      <div class="w-11/12 mx-auto md:flex flex-row-reverse">
         <div class="mt-6">
           <!-- banner -->
           <img
-            class="w-4/5 mx-auto rounded-lg outline-8 outline-[#333333]"
+            class="w-4/5 mx-auto rounded-lg outline-8 outline-[#333333] md:w-4/6 mt-6"
             src="./images/rifat.jpg"
             alt=""
           />
         </div>
         <!-- banner text section -->
         <div>
-          <p class="text-sm title-font uppercase mt-8 nav-color font-medium">
+          <p class="text-sm title-font uppercase mt-8 nav-color font-medium md:mt-14">
             Welcome to my world
           </p>
-          <h3 class="text-3xl font-semibold mt-4 title-font">
-            Hi, I’m <span class="color-primary">Rifat Hasan <br></span> <span class="text-xl font-semibold">Social Politician.</span>
+          <h3 class="text-2xl font-bold mt-4 title-font md:text-5xl md:font-extrabold md:leading-relaxed">
+            Hi, I’m <span class="color-primary">Rifat Hasan <br></span> <span class="text-xl font-semibold md:text-4xl md:font-semibold">Social Politician.</span>
           </h3>
-          <p class="text-sm nav-color mt-4 opacity-70">I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.</p>
-        </div>
-        <!-- contact section -->
-         <div class="">
+          <p class="text-sm nav-color mt-4 opacity-70 md:text-base">I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.</p>
+
+          <!-- contact section -->
+         <div class="md:flex gap-28 mt-14">
+          <div class="">
           <h5 class="text-sm nav-color font-semibold mt-8 uppercase opacity-70">find with me</h5>
           <div class="mt-6 mb-6 flex gap-4">
-            <div class=""><i class="fa-brands fa-facebook-f color-primary p-3 bg-[#2c2c2c] rounded-md shadow-lg hover:-translate-y-2 transition-all duration-150 cursor-pointer"></i></div>
-            <div class="fa-brands fa-instagram color-primary p-3 bg-[#2c2c2c] rounded-md shadow-lg hover:-translate-y-2 transition-all duration-150 cursor-pointer"></i></div>
-            <div class=""><i class="fa-brands fa-linkedin-in color-primary p-3 bg-[#2c2c2c] rounded-md shadow-xl hover:-translate-y-2 transition-all duration-150 cursor-pointer"></i></div>
+            <div class=""><a href="https://www.facebook.com/rabularafatpappu.pappu" target="_blank"><i class="fa-brands fa-facebook-f color-primary p-4 bg-[#2c2c2c] rounded-md shadow-lg hover:-translate-y-2 transition-all duration-150 cursor-pointer"></i></a></div>
+            <div><a href="https://www.instagram.com/rifat_hasan_9999/" target="_blank"> <i class="fa-brands fa-instagram color-primary p-4 bg-[#2c2c2c] rounded-md shadow-lg hover:-translate-y-2 transition-all duration-150 cursor-pointer"></i></a></div>
+            <div class=""><a href="https://www.linkedin.com/in/md-rifat-hasan-46256b325/" target="_blank"><i class="fa-brands fa-linkedin-in color-primary p-4 bg-[#2c2c2c] rounded-md shadow-xl hover:-translate-y-2 transition-all duration-150 cursor-pointer"></i></a></div>
           </div>
          </div>
-         <div>
+         <div class="">
           <h5 class="text-sm nav-color font-semibold mt-8 uppercase opacity-70">best skill on</h5>
           <div class="mt-6 mb-6 flex gap-4">
            
-            <div class="color-primary p-3 bg-[#2c2c2c] rounded-md shadow-xl hover:-translate-y-2 transition-all duration-150 cursor-pointer"> <img class="w-4 h-4" src="./images/icons-01.png" alt=""> </div>
+            <div class="color-primary p-3 bg-[#2c2c2c] rounded-md shadow-xl hover:-translate-y-2 transition-all duration-150 cursor-pointer"> <img class="w-5 h-5" src="./images/icons-01.png" alt=""> </div>
            
-            <div class="color-primary p-3 bg-[#2c2c2c] rounded-md shadow-xl hover:-translate-y-2 transition-all duration-150 cursor-pointer"> <img class="w-4 h-4" src="./images/icons-02.png" alt=""> </div>
+            <div class="color-primary p-3 bg-[#2c2c2c] rounded-md shadow-xl hover:-translate-y-2 transition-all duration-150 cursor-pointer"> <img class="w-5 h-5" src="./images/icons-02.png" alt=""> </div>
            
-            <div class="color-primary p-3 bg-[#2c2c2c] rounded-md shadow-xl hover:-translate-y-2 transition-all duration-150 cursor-pointer"> <img class="w-4 h-4" src="./images/icons-03.png" alt=""> </div>
+            <div class="color-primary p-3 bg-[#2c2c2c] rounded-md shadow-xl hover:-translate-y-2 transition-all duration-150 cursor-pointer"> <img class="w-5 h-5" src="./images/icons-03.png" alt=""> </div>
           </div>
          </div>
+         </div>
+        </div>
+        
       </div>
-    </header>
+    </main>
   </body>
 </html>
